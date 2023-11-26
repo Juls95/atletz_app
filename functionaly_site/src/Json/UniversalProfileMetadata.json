@@ -1,0 +1,33 @@
+{
+    "LSP3Profile": {
+      "name": "Juramirez", 
+      "description": "Atletz Founder", 
+      "links": [
+  
+        {
+          "title": "WebPage", 
+          "url": "https://julian.com.mx/" 
+        }
+        
+      ],
+      "tags": ["Crypto", "Climbing"],
+      "profileImage": [
+        {
+          "width": 640, 
+          "height": 609,
+          "hashFunction": "keccak256(bytes)", 
+          "hash": "Qmc9UhaBhz7k8oXEosidC8sgcEpyHnQ7ZjtsJo1kSmdmZn",
+          "url": "ipfs://..." 
+        }
+      ],
+      "backgroundImage": [
+        {
+          "width": 1024, 
+          "height": 576, 
+          "hashFunction": "keccak256(bytes)", 
+          "hash": "QmRqvP2veXmooeJZEMU19pJfBmpsMKku7tskimuTQ2CdWG", 
+          "url": "ipfs://..." 
+        }
+      ]
+    }
+  }

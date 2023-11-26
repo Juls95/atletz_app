@@ -1,0 +1,31 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.10.1",
+    "react-app-rewired": "^2.2.1",
+    "ts-node": "^10.9.1",
+    "web3": "^1.7.5"
+  },
+  "dependencies": {
+    "@erc725/erc725.js": "^0.19.0",
+    "@lukso/lsp-factory.js": "^3.1.1",
+    "@lukso/lsp-smart-contracts": "^0.11.1",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "hardhat-deploy": "^0.11.43",
+    "hardhat-gas-reporter": "^1.0.8",
+    "isomorphic-fetch": "^3.0.0",
+    "prettier": "^3.0.3",
+    "truffle-flattener": "^1.6.0",
+    "web3": "1.10"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  }
+}

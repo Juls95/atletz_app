@@ -1,39 +1,205 @@
-.App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+  {/*body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-image {
+  width: 100%;
+  display: block;
+}
+
+.header-image img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+.App-header {
+  background-color: #e6f7ff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.image-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Card {
+  background-color: #cceeff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.Button {
+  background-color: #004466;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.Form-Group {
+  margin-bottom: 20px;
+}
+
+.Form-Label, .Form-Text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Form-Control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #004466;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.big-row {
+  height: 100px;
+  background-color: #f8f9fa;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  width: 33.33%;
+  height: 50px; 
+  background-color: #e9ecef;
+}
+
+.higher {
+  height: 100px; 
+}
+*/}
+body {
+  background-color: #C2EECC;
+  font-family: Arial, sans-serif;
+}
+
+.header-image {
+  position: relative;
+  text-align: center;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
+  height: 150px;
+}
+.button-box {
+  position: absolute;
+  top: 10px; /* Adjusts the vertical position to the top of the image */
+  right: 10px; /* Positions the box to the right corner of the image */
+  background-color: #79B0E2;
+  padding: 5px; /* Reduced padding for a smaller box */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #79B0E2;
+  color: #233633;
+  border: none;
+  padding: 5px 10px; /* Reduced padding for a smaller button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px; /* Reduced font size */
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Adjusted border radius for aesthetics */
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+
+.column {
+    background-color: #79B0E2;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: calc(33% - 20px); /* Each column takes up roughly a third of the width, minus some margin */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+
+
+.left-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.middle-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.right-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.mint-section {
+  background-color: #ffffff;
+  border: 2px solid #dcdcdc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  width: 50%;
+}
+
+.mint-section h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.mint-section p {
+  color: #666;
+  font-size: 16px;
+}
+
+.mint-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
