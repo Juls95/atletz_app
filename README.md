@@ -139,6 +139,9 @@ To get a local copy up and running follow these simple example steps.
 
 - [x] Create prototype of Atletz
 - [x] Test blockchain to build on
+- [x] Create contracts for NFT usinf LSP4 and LSP8
+- [x] Connect with UP instead Metamask
+- [x] Update wallet profile using Lukso LSP3
 - [ ] Solve UP integration
 - [ ] Connecct Frontend and Backend
 - [ ] Test on testnet
