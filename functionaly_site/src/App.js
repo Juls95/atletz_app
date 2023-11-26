@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import { React, useState } from "react";
 import { ethers } from "ethers";
 import './App.css';
-//import Navbar from './Navbar';
 import Web3 from 'web3';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
