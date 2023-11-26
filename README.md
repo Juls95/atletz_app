@@ -18,20 +18,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="160" height="80">
+    <img src="images/logo.png" alt="Logo" width="200" height="80">
   </a>
 
 <h3 align="center">Atletz</h3>
@@ -72,9 +63,7 @@
     <li><a href="#-challenges-we-ran-into">🤯 Challenges we ran into</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -85,7 +74,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://julian.com.mx)
 
-The human being is a social being; he likes to belong to and feel identified with a community. Regarding **Atletz**, we are the company that will combine Blockchain technology, AI, and Sports by allowing followers of a particular discipline to have access and opportunity to invest in athletes who will be recommended by an AI system based on people's information and interactions as well as the quality of the athlete (reputation, commitment, transparency...). This will allow followers to be part of the growth of an athlete who will be able to create their community, grow in their sport, and, in return to their investors, will give benefits such as courses, lessons, events, and even a part of their profit once they meet their primary objective.
+The human being is a social being; he likes to belong to and feel identified with a community. Regarding **Atletz**, we are the company that will combine Blockchain technology, AI, and Sports by allowing followers of a particular discipline to have access and opportunity to invest in athletes who will be recommended by an AI system based on people's information and interactions as well as the quality of the athlete (reputation, commitment, transparency...). 
+
+This will allow followers to be part of the growth of an athlete who will be able to create their community, grow in their sport, and, in return to their investors, will give benefits such as courses, lessons, events, and even a part of their profit once they meet their primary objective.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,8 +127,8 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤯 Challenges we ran into
-* **Big problem**: Deploying ERC725 and LSPFactory locally and in the cloud. It's still a problem, that's why bog piece of the code is commented because of the following error: ''BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default. This is no longer the case. ''
-* Very **hard to integrate the front with the Backend**. Many problems when reading the data the user entered. That's why we created every element individually (NFT contract en Profile update) and we left the code in here but without connection to the front. You can visit following links to see the successful deployment of these:
+* **Big problem**: Deploying ERC725 and LSPFactory locally and in the cloud. It's still a problem, that's why a nig part of the code is commented because of the following error: ''BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default. This is no longer the case. ''
+* Very **hard to integrate the front with the Backend**. Many problems when reading the data the user entered. That's why we created every element individually (NFT contract en Profile update) and we left the code in here but without connection to the front. You can visit following links to see the successful deployment of LSP8, :
     - https://explorer.execution.testnet.lukso.network/address/0xcd56721954edEa42cDe615479b44A91F89858d14
     - https://explorer.execution.testnet.lukso.network/tx/0xc7e3732c4165c97029f86029fa464bc1043fae430197021c1f464a2d0eddaddb?tab=internal
 * **Documentation is not updated**. When following tutorials from Docs Lukso several error were appearing causing waste of time trying to solve them. Fortunately, most of the time the community people help with this (after lot of time because of Timezone difference with Mexico)
@@ -148,13 +139,13 @@ To get a local copy up and running follow these simple example steps.
 
 - [x] Create prototype of Atletz
 - [x] Test blockchain to build on
-- [] Solve UP integration
-- [] Connecct Frontend and Backend
-- [] Test on testnet
-    - [] Create athletes profiles
-    - [] Create fans profiles
-    - [] Create investment opportunitied
-- [] Move to Mainnet and bring Athletes and Fans to the project
+- [ ] Solve UP integration
+- [ ] Connecct Frontend and Backend
+- [ ] Test on testnet
+    - [ ] Create athletes profiles
+    - [ ] Create fans profiles
+    - [ ] Create investment opportunitied
+- [ ] Move to Mainnet and bring Athletes and Fans to the project
 
 
 See the [open issues](https://github.com/Juls95/atletz_app/issues/issues) for a full list of proposed features (and known issues).
@@ -235,5 +226,3 @@ Project Link: [https://github.com/Juls95/atletz_app](https://github.com/Juls95/a
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[Ethers.com]:
-[Ethers-url]: https://docs.ethers.org/v5/
