@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="160" height="80">
   </a>
 
 <h3 align="center">Atletz</h3>
@@ -57,7 +57,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Why ATLETZ?">Why Atletz</a>
+      <a href="#why-atletz">Why Atletz</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -69,7 +69,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#🤯 Challenges we ran into">🤯 Challenges we ran into</a></li>
+    <li><a href="#-challenges-we-ran-into">🤯 Challenges we ran into</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
