@@ -81,11 +81,12 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Why ATLETZ?
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://julian.com.mx)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The human being is a social being; he likes to belong to and feel identified with a community. Regarding **Atletz**, we are the company that will combine Blockchain technology, AI, and Sports by allowing followers of a particular discipline to have access and opportunity to invest in athletes who will be recommended by an AI system based on people's information and interactions as well as the quality of the athlete (reputation, commitment, transparency...). This will allow followers to be part of the growth of an athlete who will be able to create their community, grow in their sport, and, in return to their investors, will give benefits such as courses, lessons, events, and even a part of their profit once they meet their primary objective.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,42 +123,41 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Juls95/atletz_app.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Create a .env file in the root folder and add the following parameters:
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   private_key = 'ENTER YOUR PRIVATE KEY';
+   UP_ADDR = 'ENTER YOUR UNIVERSAL PROFILE ADDRESS';
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+## 🤯 Challenges we ran into
+* Big problem: Deploying ERC725 and LSPFactory locally and in the cloud. It's still a problem, that's why bog piece of the code is commented because of the following error: ''BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default. This is no longer the case. ''
+* Very hard to integrate the front with the Backend. Many problems when reading the data the user entered. That's why we created every element individually (NFT contract en Profile update) and we left the code in here but without connection to the front. You can visit following links to see the successful deployment of these:
+**https://explorer.execution.testnet.lukso.network/address/0xcd56721954edEa42cDe615479b44A91F89858d14
+** https://explorer.execution.testnet.lukso.network/tx/0xc7e3732c4165c97029f86029fa464bc1043fae430197021c1f464a2d0eddaddb?tab=internal
+* Documentation is not updated. When following tutorials from Docs Lukso several error were appearing causing waste of time trying to solve them. Fortunately, most of the time the community people help with this (after lot of time because of Timezone difference with Mexico)
+* Time management. As mentioned before, the problem with documentation, with UP integration and Frontend integration caused ton of time wasted on this.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- Solve UP integration
+- Connecct Frontend and Backend
+- Test on testnet
+    - Create athletes profiles
+    - Create fans profiles
+    - Create investment opportunitied
+- Move to Mainnet and bring Athletes and Fans to the project
+
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -227,8 +227,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/julianramirez95/
+[product-screenshot]: images/home.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
