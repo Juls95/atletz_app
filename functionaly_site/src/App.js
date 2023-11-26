@@ -240,7 +240,7 @@ function App() {
                 <Card style={{ color: "#000", }}>
                   <Form>
                     <Form.Group controlId="formCreateToken">
-                      <Form.Label>Create Fan Profile</Form.Label>
+                      <Form.Label>Create Athlete Profile</Form.Label>
                       <Col>
                         <Form.Text className="text-muted">User Name</Form.Text>
                         <Form.Control type="artistAddress" placeholder="Enter your Nickname:" onChange={handleChangeAthleteName} />
@@ -248,7 +248,7 @@ function App() {
                         <Form.Text className="text-muted">Sport</Form.Text>
                         <Form.Control type="tokenAddress" placeholder="Enter your sport" onChange={handleChangeAthleteSport} />
 
-                        <Form.Text className="text-muted">Location</Form.Text>
+                        <Form.Text className="text-muted">Experience</Form.Text>
                         <Form.Control type="tokenExchangeAddress" placeholder="Enter your experience on this sport:" onChange={handleChangeAthleteExperiece} />
                         <Button variant="secondary" /*onClick={editProfileInfo()}*/>Create Athlete</Button>
 
