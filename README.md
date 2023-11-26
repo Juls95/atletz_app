@@ -94,14 +94,13 @@ The human being is a social being; he likes to belong to and feel identified wit
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* Next.js
+* React.js
+* Node.js
+* Ethers.js
+* Web3
+* hardhat
+* Lukso
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,13 +112,6 @@ The human being is a social being; he likes to belong to and feel identified wit
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -136,30 +128,36 @@ This is an example of how to list things you need to use the software and how to
    private_key = 'ENTER YOUR PRIVATE KEY';
    UP_ADDR = 'ENTER YOUR UNIVERSAL PROFILE ADDRESS';
    ```
+4. Navigate to Functionaly Site folder and execute the following:
+   ```js
+   node app.js
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤯 Challenges we ran into
-* Big problem: Deploying ERC725 and LSPFactory locally and in the cloud. It's still a problem, that's why bog piece of the code is commented because of the following error: ''BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default. This is no longer the case. ''
-* Very hard to integrate the front with the Backend. Many problems when reading the data the user entered. That's why we created every element individually (NFT contract en Profile update) and we left the code in here but without connection to the front. You can visit following links to see the successful deployment of these:
-**https://explorer.execution.testnet.lukso.network/address/0xcd56721954edEa42cDe615479b44A91F89858d14
-** https://explorer.execution.testnet.lukso.network/tx/0xc7e3732c4165c97029f86029fa464bc1043fae430197021c1f464a2d0eddaddb?tab=internal
-* Documentation is not updated. When following tutorials from Docs Lukso several error were appearing causing waste of time trying to solve them. Fortunately, most of the time the community people help with this (after lot of time because of Timezone difference with Mexico)
-* Time management. As mentioned before, the problem with documentation, with UP integration and Frontend integration caused ton of time wasted on this.
+* **Big problem**: Deploying ERC725 and LSPFactory locally and in the cloud. It's still a problem, that's why bog piece of the code is commented because of the following error: ''BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default. This is no longer the case. ''
+* Very **hard to integrate the front with the Backend**. Many problems when reading the data the user entered. That's why we created every element individually (NFT contract en Profile update) and we left the code in here but without connection to the front. You can visit following links to see the successful deployment of these:
+    - https://explorer.execution.testnet.lukso.network/address/0xcd56721954edEa42cDe615479b44A91F89858d14
+    - https://explorer.execution.testnet.lukso.network/tx/0xc7e3732c4165c97029f86029fa464bc1043fae430197021c1f464a2d0eddaddb?tab=internal
+* **Documentation is not updated**. When following tutorials from Docs Lukso several error were appearing causing waste of time trying to solve them. Fortunately, most of the time the community people help with this (after lot of time because of Timezone difference with Mexico)
+* **Time management**. As mentioned before, the problem with documentation, with UP integration and Frontend integration caused ton of time wasted on this.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- Solve UP integration
-- Connecct Frontend and Backend
-- Test on testnet
-    - Create athletes profiles
-    - Create fans profiles
-    - Create investment opportunitied
-- Move to Mainnet and bring Athletes and Fans to the project
+- [x] Create prototype of Atletz
+- [x] Test blockchain to build on
+- [] Solve UP integration
+- [] Connecct Frontend and Backend
+- [] Test on testnet
+    - [] Create athletes profiles
+    - [] Create fans profiles
+    - [] Create investment opportunitied
+- [] Move to Mainnet and bring Athletes and Fans to the project
 
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Juls95/atletz_app/issues/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,20 +193,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Julián Ramírez - [@julsr_mx](https://twitter.com/julsr_mx) - juramirez.ve@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Juls95/atletz_app](https://github.com/Juls95/atletz_app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,3 +235,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Ethers.com]:
+[Ethers-url]: https://docs.ethers.org/v5/
